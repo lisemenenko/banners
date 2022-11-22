@@ -19,10 +19,11 @@ html {
 body {
   font-family: HMSans-SemiBold, sans-serif;
   font-size: 1.6rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .banner-container {
+  cursor: pointer;
   height: 60rem;
   width: 16rem;
   position: relative;

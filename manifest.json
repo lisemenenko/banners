@@ -8,7 +8,12 @@
   "height": "600",
 
   "events": {
-    "enabled": 1
+    "enabled": 1,
+    "list": {
+      "1": "myEventName1",
+      "2": "myEventName2",
+      "3": "myEventName3"
+    }
   },
 
   "clicktags": {
@@ -17,5 +22,3 @@
 
   "source": "index.html"
 }
-
-  
