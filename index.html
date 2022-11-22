@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Umain Adform Test</title>
+    <meta
+      name="description"
+      content="A simple HTML5 Banner Template made by Umain"
+    />
+    <meta name="author" content="Umain" />
+    <script>
+      document.write(
+        '<script src="' +
+          (window.API_URL ||
+            "https://s1.adform.net/banners/scripts/rmb/Adform.DHTML.js?bv=" +
+              Math.random()) +
+          '"><\/script>'
+      ),
+        document.write(
+          '<link href="reset.css?r=' +
+            Math.floor(100 * Math.random()) +
+            '" rel="stylesheet" />'
+        ),
+        document.write(
+          '<link href="main.css?r=' +
+            Math.floor(100 * Math.random()) +
+            '" rel="stylesheet" />'
+        );
+    </script>
+
+    <script src="https://s1.adform.net/banners/scripts/components/Adform.DynAdsHelper.js"></script>
+  </head>
+  <body>
+    <main class="banner-container">
+      <div id="text_field1">Empty...</div>
+      <div id="text_field2">Empty...</div>
+      <div id="text_field4">Empty...</div>
+      <img id="img_field" width="48" src="" />
+    </main>
+    <script>
+      document.write(
+        '<script src="main.js?v=' +
+          Math.floor(100 * Math.random()) +
+          '"><\/script>'
+      );
+    </script>
+  </body>
+</html>
