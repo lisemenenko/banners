@@ -2,9 +2,9 @@
   // demo data for local testing
   let demoData = [
     {
-      text_field1: "I can control you",
+      text_field1: "We help organisations uncover digital business opportunities and turn them into realities at pace.",
       text_field2: "Find your new favorites",
-      text_field4: "Umain Features",
+      text_field4: "Learn more about us",
       img_field: "./assets/umain-logo.jpg",
     },
   ];

@@ -23,8 +23,20 @@ body {
 }
 
 .banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
   height: 60rem;
   width: 16rem;
   position: relative;
+}
+
+.banner-container div {
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.banner-container:hover div {
+  box-shadow: inset 160px 0 0 0 #000;
+  color: white;
 }
