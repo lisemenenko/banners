@@ -5,7 +5,7 @@
     {
       text_field1: "I can control you",
       text_field2: "Find your new favorites",
-      text_field4: "UmainFeatures",
+      text_field4: "Umain Features",
       img_field: "./assets/umain-logo.jpg",
     },
   ];

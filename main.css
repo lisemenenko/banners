@@ -1,0 +1,29 @@
+@font-face {
+  font-family: HMSans-Regular;
+  src: url("./assets/7c12f36c4a45a8ad123f8a0e74ea12f6.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HMSans-SemiBold;
+  src: url("./assets/649aef5bd0de8a2bff377b8c8cb91525.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: HMSans-SemiBold, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.banner-container {
+  height: 60rem;
+  width: 16rem;
+  position: relative;
+}
